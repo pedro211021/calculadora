@@ -1,0 +1,100 @@
+.Bloque_contador {
+  width: 260px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1e1e1e; /* Fondo más oscuro */
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.Bloque_contador label {
+  display: block;
+  background: #333;
+  color: #00ff00; /* Verde brillante */
+  font-size: 24px;
+  text-align: right;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  min-height: 40px;
+  letter-spacing: 1px;
+}
+
+.Bloque_contador button {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #444;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.Bloque_contador button:hover {
+  background: #555;
+  transform: translateY(-5px); /* Botón se eleva */
+}
+
+.Bloque_contador button:active {
+  transform: translateY(2px); /* Botón se hunde un poco */
+}
+
+.Bloque_contador button:nth-child(1) {
+  background: #e74c3c; /* Rojo más cálido */
+}
+
+.Bloque_contador button:nth-child(1):hover {
+  background: #c0392b;
+}
+
+.Bloque_contador button:nth-child(2) {
+  background: #f39c12; /* Amarillo */
+}
+
+.Bloque_contador button:nth-child(2):hover {
+  background: #e67e22;
+}
+
+.Bloque_contador button:nth-child(3) {
+  background: #3498db; /* Azul */
+}
+
+.Bloque_contador button:nth-child(3):hover {
+  background: #2980b9;
+}
+
+.Bloque_contador button:nth-child(4) {
+  background: #2ecc71; /* Verde */
+}
+
+.Bloque_contador button:nth-child(4):hover {
+  background: #27ae60;
+}
+
+.Bloque_contador button:nth-child(5) {
+  background: #9b59b6; /* Morado */
+}
+
+.Bloque_contador button:nth-child(5):hover {
+  background: #8e44ad;
+}
+
+.Bloque_contador button:last-child {
+  background: #16a085; /* Teal */
+}
+
+.Bloque_contador button:last-child:hover {
+  background: #1abc9c;
+}
+
+.Bloque_contador button:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(0, 255, 0, 0.5);
+}
